@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\c#\System_certificate\bin\Debug\System_certificate.exe.config
+C:\Users\Administrator\Desktop\c#\System_certificate\bin\Debug\System_certificate.exe
+C:\Users\Administrator\Desktop\c#\System_certificate\bin\Debug\System_certificate.pdb
+C:\Users\Administrator\Desktop\c#\System_certificate\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_c.9F4EF65C.Up2Date
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.exe
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.pdb
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.MainForm.resources
+C:\Users\Administrator\Desktop\c#\System_certificate\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\c#\System_certificate\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\SqlAuthenticationProvider.resources
