@@ -1,4 +1,7 @@
-﻿namespace System_certificate
+﻿using System;
+using System.Drawing;
+
+namespace System_certificate
 {
     partial class login
     {
@@ -34,13 +37,19 @@
             this.btnSubmitLogin = new Guna.UI2.WinForms.Guna2Button();
             this.btnCloseLogin = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
+            //
+            // login
+            //
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen; // Add this line
+            this.ResumeLayout(false);
+            this.PerformLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bayon", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label1.Location = new System.Drawing.Point(50, 9);
+            this.label1.Font = new System.Drawing.Font("Bayon", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = Color.FromArgb(61, 61, 61);
+            this.label1.Location = new System.Drawing.Point(180, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(457, 67);
             this.label1.TabIndex = 0;
@@ -57,7 +66,7 @@
             this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsername.Font = new System.Drawing.Font("Hanuman", 13.8F);
+            this.txtUsername.Font = new System.Drawing.Font("Hanuman", 10.8F);
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.Location = new System.Drawing.Point(67, 109);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -65,7 +74,7 @@
             this.txtUsername.Padding = new System.Windows.Forms.Padding(10);
             this.txtUsername.PlaceholderText = "បញ្ចូលឈ្មោះ";
             this.txtUsername.SelectedText = "";
-            this.txtUsername.Size = new System.Drawing.Size(436, 64);
+            this.txtUsername.Size = new System.Drawing.Size(436, 50);
             this.txtUsername.TabIndex = 1;
             // 
             // txtPassword
@@ -79,7 +88,7 @@
             this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.Font = new System.Drawing.Font("Hanuman", 13.8F);
+            this.txtPassword.Font = new System.Drawing.Font("Hanuman", 10.8F);
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Location = new System.Drawing.Point(62, 202);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -87,7 +96,7 @@
             this.txtPassword.Padding = new System.Windows.Forms.Padding(10);
             this.txtPassword.PlaceholderText = "បញ្ចូលពាក្យសម្ងាត់";
             this.txtPassword.SelectedText = "";
-            this.txtPassword.Size = new System.Drawing.Size(436, 64);
+            this.txtPassword.Size = new System.Drawing.Size(436, 50);
             this.txtPassword.TabIndex = 2;
             // 
             // btnSubmitLogin
@@ -100,13 +109,13 @@
             this.btnSubmitLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSubmitLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnSubmitLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSubmitLogin.FillColor = System.Drawing.Color.Silver;
-            this.btnSubmitLogin.Font = new System.Drawing.Font("Bayon", 13.8F);
+            this.btnSubmitLogin.FillColor = System.Drawing.Color.FromArgb(94, 148, 255);
+            this.btnSubmitLogin.Font = new System.Drawing.Font("Bayon", 12.8F);
             this.btnSubmitLogin.ForeColor = System.Drawing.Color.White;
             this.btnSubmitLogin.Location = new System.Drawing.Point(62, 314);
             this.btnSubmitLogin.Name = "btnSubmitLogin";
             this.btnSubmitLogin.PressedColor = System.Drawing.Color.Silver;
-            this.btnSubmitLogin.Size = new System.Drawing.Size(216, 60);
+            this.btnSubmitLogin.Size = new System.Drawing.Size(216, 55);
             this.btnSubmitLogin.TabIndex = 3;
             this.btnSubmitLogin.Text = "ចូលប្រព័ន្ធ";
             this.btnSubmitLogin.Click += new System.EventHandler(this.btnSubmitLogin_Click);
@@ -121,15 +130,16 @@
             this.btnCloseLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCloseLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCloseLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCloseLogin.FillColor = System.Drawing.Color.Silver;
-            this.btnCloseLogin.Font = new System.Drawing.Font("Bayon", 13.8F);
+            this.btnCloseLogin.FillColor = System.Drawing.Color.FromArgb(192, 0, 0);
+            this.btnCloseLogin.Font = new System.Drawing.Font("Bayon", 12.8F);
             this.btnCloseLogin.ForeColor = System.Drawing.Color.White;
             this.btnCloseLogin.Location = new System.Drawing.Point(291, 314);
             this.btnCloseLogin.Name = "btnCloseLogin";
             this.btnCloseLogin.PressedColor = System.Drawing.Color.Silver;
-            this.btnCloseLogin.Size = new System.Drawing.Size(216, 60);
+            this.btnCloseLogin.Size = new System.Drawing.Size(216, 55);
             this.btnCloseLogin.TabIndex = 4;
             this.btnCloseLogin.Text = "ចេកចេញ";
+            this.btnCloseLogin.Click += new System.EventHandler(this.btnCloseLogin_Click);
             // 
             // login
             // 
@@ -146,6 +156,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void btnCloseLogin_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

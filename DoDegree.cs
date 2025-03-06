@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace System_certificate
 {
-    public partial class Students : Form
+    public partial class DoDegree : Form
     {
-        public Students()
+        public DoDegree()
         {
             InitializeComponent();
         }

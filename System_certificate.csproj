@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoDegree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoDegree.Designer.cs">
+      <DependentUpon>DoDegree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EnrollStudents.Designer.cs">
+      <DependentUpon>EnrollStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationStudents.Designer.cs">
+      <DependentUpon>InformationStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,8 +80,29 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Students.cs" />
+    <Compile Include="Presenters\EnrollStudentsPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormStudents.Designer.cs">
+      <DependentUpon>FormStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IEnrollstudentsView.cs" />
+    <EmbeddedResource Include="DoDegree.resx">
+      <DependentUpon>DoDegree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollStudents.resx">
+      <DependentUpon>EnrollStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationStudents.resx">
+      <DependentUpon>InformationStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +119,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="FormStudents.resx">
+      <DependentUpon>FormStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,6 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certificate Management System1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
