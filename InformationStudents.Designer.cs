@@ -34,20 +34,20 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.table_select_create_certificate = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.CourseId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StudentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.major = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.course = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CourseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.score = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.action = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Search_Student_Name_and_id = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_delete_students = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_update_name_major_subject_score = new Guna.UI2.WinForms.Guna2Button();
             this.btn_DoDegree = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_exit_table_certificate = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.table_select_create_certificate)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -63,17 +63,17 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.guna2DataGridView1);
+            this.panel1.Controls.Add(this.table_select_create_certificate);
             this.panel1.Location = new System.Drawing.Point(23, 115);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1214, 465);
             this.panel1.TabIndex = 3;
             // 
-            // guna2DataGridView1
+            // table_select_create_certificate
             // 
-            this.guna2DataGridView1.AllowUserToOrderColumns = true;
+            this.table_select_create_certificate.AllowUserToOrderColumns = true;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.table_select_create_certificate.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Hanuman", 10F);
@@ -81,16 +81,16 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 43;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id,
-            this.Name,
+            this.table_select_create_certificate.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.table_select_create_certificate.ColumnHeadersHeight = 43;
+            this.table_select_create_certificate.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.table_select_create_certificate.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.CourseId,
+            this.StudentId,
             this.major,
-            this.course,
+            this.CourseName,
             this.score,
-            this.action});
+            this.Status});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Hanuman", 10F);
@@ -98,11 +98,11 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
+            this.table_select_create_certificate.DefaultCellStyle = dataGridViewCellStyle3;
+            this.table_select_create_certificate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.table_select_create_certificate.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.table_select_create_certificate.Location = new System.Drawing.Point(0, 0);
+            this.table_select_create_certificate.Name = "table_select_create_certificate";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Hanuman", 10F);
@@ -110,47 +110,47 @@
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1214, 465);
-            this.guna2DataGridView1.TabIndex = 4;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 43;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
+            this.table_select_create_certificate.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.table_select_create_certificate.RowHeadersVisible = false;
+            this.table_select_create_certificate.RowHeadersWidth = 51;
+            this.table_select_create_certificate.RowTemplate.Height = 24;
+            this.table_select_create_certificate.Size = new System.Drawing.Size(1214, 465);
+            this.table_select_create_certificate.TabIndex = 4;
+            this.table_select_create_certificate.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.table_select_create_certificate.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.table_select_create_certificate.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.table_select_create_certificate.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.table_select_create_certificate.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.table_select_create_certificate.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.table_select_create_certificate.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.table_select_create_certificate.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.table_select_create_certificate.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.table_select_create_certificate.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.table_select_create_certificate.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.table_select_create_certificate.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.table_select_create_certificate.ThemeStyle.HeaderStyle.Height = 43;
+            this.table_select_create_certificate.ThemeStyle.ReadOnly = false;
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.Height = 24;
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.table_select_create_certificate.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.table_select_create_certificate.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
             // 
-            // id
+            // CourseId
             // 
-            this.id.FillWeight = 60F;
-            this.id.HeaderText = "លេខរាង";
-            this.id.MinimumWidth = 10;
-            this.id.Name = "id";
+            this.CourseId.FillWeight = 60F;
+            this.CourseId.HeaderText = "លេខរាង";
+            this.CourseId.MinimumWidth = 10;
+            this.CourseId.Name = "CourseId";
             // 
-            // Name
+            // StudentId
             // 
-            this.Name.HeaderText = "ឈ្មោះ";
-            this.Name.MinimumWidth = 6;
-            this.Name.Name = "Name";
+            this.StudentId.HeaderText = "ឈ្មោះ";
+            this.StudentId.MinimumWidth = 6;
+            this.StudentId.Name = "StudentId";
             // 
             // major
             // 
@@ -159,11 +159,11 @@
             this.major.MinimumWidth = 6;
             this.major.Name = "major";
             // 
-            // course
+            // CourseName
             // 
-            this.course.HeaderText = "វគ្គសិក្សា";
-            this.course.MinimumWidth = 6;
-            this.course.Name = "course";
+            this.CourseName.HeaderText = "វគ្គសិក្សា";
+            this.CourseName.MinimumWidth = 6;
+            this.CourseName.Name = "CourseName";
             // 
             // score
             // 
@@ -172,87 +172,72 @@
             this.score.MinimumWidth = 6;
             this.score.Name = "score";
             // 
-            // action
+            // Status
             // 
-            this.action.FillWeight = 80F;
-            this.action.HeaderText = "ប្រតិបត្តិពិន្ទុ";
-            this.action.MinimumWidth = 6;
-            this.action.Name = "action";
+            this.Status.FillWeight = 80F;
+            this.Status.HeaderText = "ប្រតិបត្តិពិន្ទុ";
+            this.Status.MinimumWidth = 6;
+            this.Status.Name = "Status";
             // 
-            // guna2TextBox2
+            // Search_Student_Name_and_id
             // 
-            this.guna2TextBox2.Animated = true;
-            this.guna2TextBox2.AutoRoundedCorners = true;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Hanuman", 10F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(808, 27);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PlaceholderText = "  ស្វែងរក.....";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(429, 60);
-            this.guna2TextBox2.TabIndex = 5;
+            this.Search_Student_Name_and_id.Animated = true;
+            this.Search_Student_Name_and_id.AutoRoundedCorners = true;
+            this.Search_Student_Name_and_id.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Search_Student_Name_and_id.DefaultText = "";
+            this.Search_Student_Name_and_id.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Search_Student_Name_and_id.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Search_Student_Name_and_id.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Search_Student_Name_and_id.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Search_Student_Name_and_id.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Search_Student_Name_and_id.Font = new System.Drawing.Font("Hanuman", 10F);
+            this.Search_Student_Name_and_id.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Search_Student_Name_and_id.Location = new System.Drawing.Point(808, 27);
+            this.Search_Student_Name_and_id.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.Search_Student_Name_and_id.Name = "Search_Student_Name_and_id";
+            this.Search_Student_Name_and_id.PlaceholderText = "  ស្វែងរក.....";
+            this.Search_Student_Name_and_id.SelectedText = "";
+            this.Search_Student_Name_and_id.Size = new System.Drawing.Size(429, 60);
+            this.Search_Student_Name_and_id.TabIndex = 5;
+            this.Search_Student_Name_and_id.TextChanged += new System.EventHandler(this.Search_Student_Name_and_id_TextChanged);
             // 
-            // guna2Button1
+            // btn_delete_students
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Bayon", 12F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(23, 624);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(232, 58);
-            this.guna2Button1.TabIndex = 8;
-            this.guna2Button1.Text = "បញ្ជូល";
+            this.btn_delete_students.Animated = true;
+            this.btn_delete_students.AutoRoundedCorners = true;
+            this.btn_delete_students.BackColor = System.Drawing.Color.Transparent;
+            this.btn_delete_students.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_delete_students.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_delete_students.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_delete_students.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_delete_students.Font = new System.Drawing.Font("Bayon", 12F);
+            this.btn_delete_students.ForeColor = System.Drawing.Color.White;
+            this.btn_delete_students.IndicateFocus = true;
+            this.btn_delete_students.Location = new System.Drawing.Point(23, 601);
+            this.btn_delete_students.Name = "btn_delete_students";
+            this.btn_delete_students.Size = new System.Drawing.Size(232, 58);
+            this.btn_delete_students.TabIndex = 9;
+            this.btn_delete_students.Text = "លុប";
+            this.btn_delete_students.Click += new System.EventHandler(this.btn_delete_students_Click);
             // 
-            // guna2Button2
+            // btn_update_name_major_subject_score
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Bayon", 12F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(277, 624);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(232, 58);
-            this.guna2Button2.TabIndex = 9;
-            this.guna2Button2.Text = "លុប";
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.Animated = true;
-            this.guna2Button3.AutoRoundedCorners = true;
-            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Bayon", 12F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.IndicateFocus = true;
-            this.guna2Button3.Location = new System.Drawing.Point(543, 624);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(232, 58);
-            this.guna2Button3.TabIndex = 10;
-            this.guna2Button3.Text = "កែប្រែ";
+            this.btn_update_name_major_subject_score.Animated = true;
+            this.btn_update_name_major_subject_score.AutoRoundedCorners = true;
+            this.btn_update_name_major_subject_score.BackColor = System.Drawing.Color.Transparent;
+            this.btn_update_name_major_subject_score.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_update_name_major_subject_score.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_update_name_major_subject_score.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_update_name_major_subject_score.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_update_name_major_subject_score.Font = new System.Drawing.Font("Bayon", 12F);
+            this.btn_update_name_major_subject_score.ForeColor = System.Drawing.Color.White;
+            this.btn_update_name_major_subject_score.IndicateFocus = true;
+            this.btn_update_name_major_subject_score.Location = new System.Drawing.Point(261, 601);
+            this.btn_update_name_major_subject_score.Name = "btn_update_name_major_subject_score";
+            this.btn_update_name_major_subject_score.Size = new System.Drawing.Size(232, 58);
+            this.btn_update_name_major_subject_score.TabIndex = 10;
+            this.btn_update_name_major_subject_score.Text = "កែប្រែ";
+            this.btn_update_name_major_subject_score.Click += new System.EventHandler(this.btn_update_name_major_subject_score_Click);
             // 
             // btn_DoDegree
             // 
@@ -266,28 +251,50 @@
             this.btn_DoDegree.Font = new System.Drawing.Font("Bayon", 12F);
             this.btn_DoDegree.ForeColor = System.Drawing.Color.White;
             this.btn_DoDegree.IndicateFocus = true;
-            this.btn_DoDegree.Location = new System.Drawing.Point(797, 624);
+            this.btn_DoDegree.Location = new System.Drawing.Point(499, 601);
             this.btn_DoDegree.Name = "btn_DoDegree";
             this.btn_DoDegree.Size = new System.Drawing.Size(232, 58);
             this.btn_DoDegree.TabIndex = 11;
             this.btn_DoDegree.Text = "បោះពុម្ព";
             this.btn_DoDegree.Click += new System.EventHandler(this.btn_DoDegree_Click);
             // 
+            // btn_exit_table_certificate
+            // 
+            this.btn_exit_table_certificate.Animated = true;
+            this.btn_exit_table_certificate.AutoRoundedCorners = true;
+            this.btn_exit_table_certificate.BackColor = System.Drawing.Color.Transparent;
+            this.btn_exit_table_certificate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_exit_table_certificate.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_exit_table_certificate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_exit_table_certificate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_exit_table_certificate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_exit_table_certificate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_exit_table_certificate.Font = new System.Drawing.Font("Bayon", 12F);
+            this.btn_exit_table_certificate.ForeColor = System.Drawing.Color.White;
+            this.btn_exit_table_certificate.IndicateFocus = true;
+            this.btn_exit_table_certificate.Location = new System.Drawing.Point(737, 601);
+            this.btn_exit_table_certificate.Name = "btn_exit_table_certificate";
+            this.btn_exit_table_certificate.Size = new System.Drawing.Size(232, 58);
+            this.btn_exit_table_certificate.TabIndex = 12;
+            this.btn_exit_table_certificate.Text = "ចាកចេញ";
+            this.btn_exit_table_certificate.Click += new System.EventHandler(this.btn_exit_table_certificate_Click);
+            // 
             // InformationStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btn_exit_table_certificate);
             this.Controls.Add(this.btn_DoDegree);
-            this.Controls.Add(this.guna2Button3);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2TextBox2);
+            this.Controls.Add(this.btn_update_name_major_subject_score);
+            this.Controls.Add(this.btn_delete_students);
+            this.Controls.Add(this.Search_Student_Name_and_id);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-           
+            this.Name = "InformationStudents";
             this.Size = new System.Drawing.Size(1321, 765);
+            this.Load += new System.EventHandler(this.InformationStudents_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.table_select_create_certificate)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -298,17 +305,17 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2DataGridViewStyler guna2DataGridViewStyler1;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn major;
-        private System.Windows.Forms.DataGridViewTextBoxColumn course;
-        private System.Windows.Forms.DataGridViewTextBoxColumn score;
-        private System.Windows.Forms.DataGridViewTextBoxColumn action;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2DataGridView table_select_create_certificate;
+        private Guna.UI2.WinForms.Guna2TextBox Search_Student_Name_and_id;
+        private Guna.UI2.WinForms.Guna2Button btn_delete_students;
+        private Guna.UI2.WinForms.Guna2Button btn_update_name_major_subject_score;
         private Guna.UI2.WinForms.Guna2Button btn_DoDegree;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CourseId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StudentId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn major;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CourseName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn score;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private Guna.UI2.WinForms.Guna2Button btn_exit_table_certificate;
     }
 }

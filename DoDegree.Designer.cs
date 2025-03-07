@@ -36,7 +36,7 @@
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_DoDegree = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_close_degree = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // label1
@@ -136,31 +136,32 @@
             this.guna2Button3.TabIndex = 13;
             this.guna2Button3.Text = "កែប្រែ";
             // 
-            // guna2Button2
+            // btn_close_degree
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Bayon", 12F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(511, 772);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(232, 58);
-            this.guna2Button2.TabIndex = 14;
-            this.guna2Button2.Text = "ចាកចេញ";
+            this.btn_close_degree.Animated = true;
+            this.btn_close_degree.AutoRoundedCorners = true;
+            this.btn_close_degree.BackColor = System.Drawing.Color.Transparent;
+            this.btn_close_degree.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_close_degree.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_close_degree.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_close_degree.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_close_degree.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_close_degree.Font = new System.Drawing.Font("Bayon", 12F);
+            this.btn_close_degree.ForeColor = System.Drawing.Color.White;
+            this.btn_close_degree.IndicateFocus = true;
+            this.btn_close_degree.Location = new System.Drawing.Point(511, 772);
+            this.btn_close_degree.Name = "btn_close_degree";
+            this.btn_close_degree.Size = new System.Drawing.Size(232, 58);
+            this.btn_close_degree.TabIndex = 14;
+            this.btn_close_degree.Text = "ចាកចេញ";
+            this.btn_close_degree.Click += new System.EventHandler(this.btn_close_degree_Click);
             // 
             // DoDegree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 953);
-            this.Controls.Add(this.guna2Button2);
+            this.ClientSize = new System.Drawing.Size(1532, 846);
+            this.Controls.Add(this.btn_close_degree);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.btn_DoDegree);
             this.Controls.Add(this.guna2Panel5);
@@ -169,10 +170,10 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label1);
-            this.MaximumSize = new System.Drawing.Size(1500, 1000);
-            this.MinimumSize = new System.Drawing.Size(1100, 1000);
+            this.MaximumSize = new System.Drawing.Size(1550, 900);
+            this.MinimumSize = new System.Drawing.Size(1100, 668);
             this.Name = "DoDegree";
-            this.Padding = new System.Windows.Forms.Padding(15);
+            this.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DoDegree";
             this.ResumeLayout(false);
@@ -190,6 +191,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
         private Guna.UI2.WinForms.Guna2Button btn_DoDegree;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btn_close_degree;
     }
 }

@@ -55,7 +55,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1512, 726);
+            this.panel1.Size = new System.Drawing.Size(1512, 753);
             this.panel1.TabIndex = 0;
             // 
             // panel_Desplay_Page
@@ -68,7 +68,7 @@
             this.panel_Desplay_Page.ImeMode = System.Windows.Forms.ImeMode.AlphaFull;
             this.panel_Desplay_Page.Location = new System.Drawing.Point(262, 0);
             this.panel_Desplay_Page.Name = "panel_Desplay_Page";
-            this.panel_Desplay_Page.Size = new System.Drawing.Size(1250, 726);
+            this.panel_Desplay_Page.Size = new System.Drawing.Size(1250, 753);
             this.panel_Desplay_Page.TabIndex = 3;
             // 
             // panel5
@@ -78,7 +78,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Padding = new System.Windows.Forms.Padding(25);
+            this.panel5.Padding = new System.Windows.Forms.Padding(25, 25, 25, 25);
             this.panel5.Size = new System.Drawing.Size(1250, 100);
             this.panel5.TabIndex = 0;
             // 
@@ -110,8 +110,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(15);
-            this.panel2.Size = new System.Drawing.Size(262, 726);
+            this.panel2.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.panel2.Size = new System.Drawing.Size(262, 753);
             this.panel2.TabIndex = 0;
             // 
             // btn_information_student
@@ -238,12 +238,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1512, 726);
+            this.ClientSize = new System.Drawing.Size(1512, 753);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "ប្រព័ន្ធគ្រប់គ្រងការធ្វើសញ្ញាប័ត្រ";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel_Desplay_Page.ResumeLayout(false);

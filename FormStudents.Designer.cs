@@ -44,6 +44,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this._score = new Guna.UI2.WinForms.Guna2TextBox();
             this._search_std_by_id = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Select_Course_Name = new Guna.UI2.WinForms.Guna2ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -304,20 +305,47 @@
             this._search_std_by_id.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this._search_std_by_id.Font = new System.Drawing.Font("Hanuman", 10F);
             this._search_std_by_id.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this._search_std_by_id.Location = new System.Drawing.Point(571, 39);
+            this._search_std_by_id.Location = new System.Drawing.Point(751, 39);
             this._search_std_by_id.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this._search_std_by_id.Name = "_search_std_by_id";
             this._search_std_by_id.PlaceholderText = "  ស្វែងរកតាមលេខរាង....";
             this._search_std_by_id.SelectedText = "";
-            this._search_std_by_id.Size = new System.Drawing.Size(467, 60);
+            this._search_std_by_id.Size = new System.Drawing.Size(287, 60);
             this._search_std_by_id.TabIndex = 15;
             this._search_std_by_id.TextChanged += new System.EventHandler(this._search_std_by_id_TextChanged);
+            // 
+            // Select_Course_Name
+            // 
+            this.Select_Course_Name.AutoRoundedCorners = true;
+            this.Select_Course_Name.BackColor = System.Drawing.Color.Transparent;
+            this.Select_Course_Name.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.Select_Course_Name.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Select_Course_Name.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Select_Course_Name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Select_Course_Name.Font = new System.Drawing.Font("Hanuman", 10.2F);
+            this.Select_Course_Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.Select_Course_Name.ItemHeight = 40;
+            this.Select_Course_Name.Items.AddRange(new object[] {
+            " ​ជ្រើសរើសវគ្គសិក្សា",
+            "​​​​​​​​  Data base",
+            "  Web design",
+            "  C# ",
+            "  Network",
+            "  UX/UI",
+            "  English"});
+            this.Select_Course_Name.Location = new System.Drawing.Point(480, 39);
+            this.Select_Course_Name.Name = "Select_Course_Name";
+            this.Select_Course_Name.Size = new System.Drawing.Size(262, 46);
+            this.Select_Course_Name.StartIndex = 0;
+            this.Select_Course_Name.TabIndex = 16;
+            this.Select_Course_Name.SelectedIndexChanged += new System.EventHandler(this.Select_Course_Name_SelectedIndexChanged);
             // 
             // FormStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.Controls.Add(this.Select_Course_Name);
             this.Controls.Add(this._search_std_by_id);
             this.Controls.Add(this.label7);
             this.Controls.Add(this._score);
@@ -361,5 +389,6 @@
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2TextBox _score;
         private Guna.UI2.WinForms.Guna2TextBox _search_std_by_id;
+        private Guna.UI2.WinForms.Guna2ComboBox Select_Course_Name;
     }
 }

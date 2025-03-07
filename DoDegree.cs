@@ -16,5 +16,10 @@ namespace System_certificate
         {
             InitializeComponent();
         }
+
+        private void btn_close_degree_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
