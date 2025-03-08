@@ -78,7 +78,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Padding = new System.Windows.Forms.Padding(25, 25, 25, 25);
+            this.panel5.Padding = new System.Windows.Forms.Padding(25);
             this.panel5.Size = new System.Drawing.Size(1250, 100);
             this.panel5.TabIndex = 0;
             // 
@@ -110,7 +110,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.panel2.Padding = new System.Windows.Forms.Padding(15);
             this.panel2.Size = new System.Drawing.Size(262, 753);
             this.panel2.TabIndex = 0;
             // 
@@ -243,7 +243,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ប្រព័ន្ធគ្រប់គ្រងការធ្វើសញ្ញាប័ត្រ";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

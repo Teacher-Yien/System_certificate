@@ -24,8 +24,21 @@ namespace System_certificate
 
         private void btn_DoDegree_Click(object sender, EventArgs e)
         {
-            DoDegree doDegree = new DoDegree();
-            doDegree.Show();
+            if (table_select_create_certificate.SelectedRows.Count > 0)
+            {
+                // Get the selected student's name
+                string studentName = table_select_create_certificate.SelectedRows[0].Cells[1].Value.ToString();
+
+                // Open DoDegree Form and set the name
+                DoDegree doDegree = new DoDegree();
+                doDegree.SetNameToPrint(studentName);
+                doDegree.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please select a student.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

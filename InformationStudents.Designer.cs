@@ -206,6 +206,7 @@
             this.btn_delete_students.Animated = true;
             this.btn_delete_students.AutoRoundedCorners = true;
             this.btn_delete_students.BackColor = System.Drawing.Color.Transparent;
+            this.btn_delete_students.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_delete_students.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_delete_students.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_delete_students.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -225,6 +226,7 @@
             this.btn_update_name_major_subject_score.Animated = true;
             this.btn_update_name_major_subject_score.AutoRoundedCorners = true;
             this.btn_update_name_major_subject_score.BackColor = System.Drawing.Color.Transparent;
+            this.btn_update_name_major_subject_score.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_update_name_major_subject_score.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_update_name_major_subject_score.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_update_name_major_subject_score.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -244,6 +246,7 @@
             this.btn_DoDegree.Animated = true;
             this.btn_DoDegree.AutoRoundedCorners = true;
             this.btn_DoDegree.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DoDegree.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_DoDegree.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_DoDegree.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_DoDegree.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

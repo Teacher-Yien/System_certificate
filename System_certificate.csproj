@@ -152,5 +152,17 @@
   <ItemGroup>
     <None Include="Resources\Certificate Management System1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certificate1_Replace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certificate2_Replace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certificate3_Replace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certificate4_Replace.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

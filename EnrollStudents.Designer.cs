@@ -91,6 +91,7 @@
             this.btn_exit_fstudent.Animated = true;
             this.btn_exit_fstudent.AutoRoundedCorners = true;
             this.btn_exit_fstudent.BackColor = System.Drawing.Color.Transparent;
+            this.btn_exit_fstudent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_exit_fstudent.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_exit_fstudent.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_exit_fstudent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -111,6 +112,7 @@
             this.btn_add_student.Animated = true;
             this.btn_add_student.AutoRoundedCorners = true;
             this.btn_add_student.BackColor = System.Drawing.Color.Transparent;
+            this.btn_add_student.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_add_student.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_add_student.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_add_student.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
