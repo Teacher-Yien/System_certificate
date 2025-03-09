@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.IO;
@@ -14,9 +16,13 @@ namespace System_certificate
 {
     public partial class DoDegree : Form
     {
+        // Get connection string
+        string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
         public DoDegree()
         {
             InitializeComponent();
+            // Subscribe to the DoubleClick event of the label  
+            _label_Set_Name.DoubleClick += _label_Set_Name_DoubleClick;
         }
 
         // Get the page dimensions  
@@ -184,6 +190,93 @@ namespace System_certificate
             // Indicate that we have no more pages to print  
             e.HasMorePages = false;
         }
+
+        private int _certificateId;
+
+        public void SetCertificateId(int id)
+        {
+            _certificateId = id;
+        }
+
+        private void _label_Set_Name_DoubleClick(object sender, EventArgs e)
+        {
+            // Use the stored certificate ID instead of creating a new InformationStudents
+            string newName = ShowInputDialog("Enter new name:", "Update Name");
+            if (!string.IsNullOrEmpty(newName))
+            {
+                _label_Set_Name.Text = newName;
+                UpdateNameInDatabase(_certificateId, newName);
+            }
+        }
+
+        private string ShowInputDialog(string text, string title)
+        {
+            // Create a new input dialog for the user to enter a name
+            UpdateNameCetificate updateNameCetificate = new UpdateNameCetificate();
+            updateNameCetificate.Text = title;
+
+            // Optionally, set the initial value in the dialog
+            // updateNameCetificate.nameTextBox.Text = _label_Set_Name.Text;
+
+            if (updateNameCetificate.ShowDialog() == DialogResult.OK)
+            {
+                return updateNameCetificate.NewName;
+            }
+            else
+            {
+                return null; // User cancelled the action
+            }
+        }
+
+        private void UpdateNameInDatabase(int certificateId, string fullName)
+        {
+
+
+            // SQL Update Query: Update FirstName and LastName
+            string query = "UPDATE StudentsCourses SET FirstName = @FirstName, LastName = @LastName WHERE Id = @CertificateId";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        // Split FullName into FirstName and LastName
+                        string[] nameParts = fullName.Split(' ');
+
+                        // Handle cases where there might not be a last name
+                        string firstName = nameParts.Length > 0 ? nameParts[0] : "";
+                        string lastName = nameParts.Length > 1 ? string.Join(" ", nameParts.Skip(1)) : "";
+
+                        // Set parameters to prevent SQL Injection
+                        cmd.Parameters.AddWithValue("@FirstName", firstName);
+                        cmd.Parameters.AddWithValue("@LastName", lastName);
+                        cmd.Parameters.AddWithValue("@CertificateId", certificateId);
+
+                        // Execute the UPDATE command
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        // Check if the update was successful
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Student's Name updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("No record found to update.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error updating database: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+
 
 
     }

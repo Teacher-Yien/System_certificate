@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\updatenamecetificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:updatenamecetificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|c:\\users\\administrator\\desktop\\c#\\system_certificate\\dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\informationstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:informationstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\updatenamecetificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:updatenamecetificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\informationstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:informationstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\formstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:formstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\informationstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:informationstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|c:\\users\\administrator\\desktop\\c#\\system_certificate\\dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:dodegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|c:\\users\\administrator\\desktop\\c#\\system_certificate\\dodegree.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:dodegree.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\enrollstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:enrollstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\enrollstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:enrollstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\formstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:formstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\informationstudents.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\enrollstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:enrollstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\formstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:formstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E0070E-88EA-4872-A799-68820F525001}|System_certificate.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,44 +85,50 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DoDegree.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\DoDegree.cs",
               "RelativeDocumentMoniker": "DoDegree.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\DoDegree.cs",
               "RelativeToolTip": "DoDegree.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAowJwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAADwv9AAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T17:21:18.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InformationStudents.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.cs",
               "RelativeDocumentMoniker": "InformationStudents.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.cs",
               "RelativeToolTip": "InformationStudents.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T20:43:36.18Z"
+              "WhenOpened": "2025-03-07T20:43:36.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InformationStudents.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.cs",
-              "RelativeDocumentMoniker": "InformationStudents.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.cs [Design]",
-              "RelativeToolTip": "InformationStudents.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "UpdateNameCetificate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\UpdateNameCetificate.cs",
+              "RelativeDocumentMoniker": "UpdateNameCetificate.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\UpdateNameCetificate.cs [Design]",
+              "RelativeToolTip": "UpdateNameCetificate.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T17:18:38.691Z"
+              "WhenOpened": "2025-03-08T12:21:52.757Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DoDegree.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\DoDegree.cs",
               "RelativeDocumentMoniker": "DoDegree.cs",
@@ -121,12 +139,58 @@
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateNameCetificate.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\UpdateNameCetificate.cs",
+              "RelativeDocumentMoniker": "UpdateNameCetificate.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\UpdateNameCetificate.cs",
+              "RelativeToolTip": "UpdateNameCetificate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T12:32:22.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InformationStudents.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.cs",
+              "RelativeDocumentMoniker": "InformationStudents.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.cs [Design]",
+              "RelativeToolTip": "InformationStudents.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T17:18:38.691Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAANkAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T03:04:40.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DoDegree.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\DoDegree.Designer.cs",
+              "RelativeDocumentMoniker": "DoDegree.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\DoDegree.Designer.cs",
+              "RelativeToolTip": "DoDegree.Designer.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwIMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T17:07:00.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "InformationStudents.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\InformationStudents.Designer.cs",
               "RelativeDocumentMoniker": "InformationStudents.Designer.cs",
@@ -134,22 +198,12 @@
               "RelativeToolTip": "InformationStudents.Designer.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAkwDMBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:42:09.089Z"
+              "WhenOpened": "2025-02-28T17:42:09.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormStudents.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\FormStudents.cs",
-              "RelativeDocumentMoniker": "FormStudents.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\FormStudents.cs [Design]",
-              "RelativeToolTip": "FormStudents.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T17:27:51.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "EnrollStudents.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\EnrollStudents.cs",
               "RelativeDocumentMoniker": "EnrollStudents.cs",
@@ -160,7 +214,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "EnrollStudents.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\EnrollStudents.cs",
+              "RelativeDocumentMoniker": "EnrollStudents.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\EnrollStudents.cs",
+              "RelativeToolTip": "EnrollStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T04:00:46.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormStudents.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\FormStudents.cs",
+              "RelativeDocumentMoniker": "FormStudents.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\FormStudents.cs [Design]",
+              "RelativeToolTip": "FormStudents.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T17:27:51.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "FormStudents.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\FormStudents.cs",
               "RelativeDocumentMoniker": "FormStudents.cs",
@@ -172,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -181,30 +258,6 @@
               "ViewState": "AgIAAEcAAAAAAAAAAAAEwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T17:39:22.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnrollStudents.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\EnrollStudents.cs",
-              "RelativeDocumentMoniker": "EnrollStudents.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\EnrollStudents.cs",
-              "RelativeToolTip": "EnrollStudents.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T04:00:46.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c#\\System_certificate\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAAAK0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T03:04:40.428Z"
             }
           ]
         }

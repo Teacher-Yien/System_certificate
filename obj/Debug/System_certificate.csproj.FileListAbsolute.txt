@@ -18,3 +18,4 @@ C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificat
 C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.DoDegree.resources
 C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.Enrollstudents.resources
 C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.FormStudents.resources
+C:\Users\Administrator\Desktop\c#\System_certificate\obj\Debug\System_certificate.UpdateNameCetificate.resources

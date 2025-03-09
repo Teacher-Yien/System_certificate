@@ -90,6 +90,12 @@
     <Compile Include="FormStudents.Designer.cs">
       <DependentUpon>FormStudents.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateNameCetificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateNameCetificate.Designer.cs">
+      <DependentUpon>UpdateNameCetificate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\IEnrollstudentsView.cs" />
     <EmbeddedResource Include="DoDegree.resx">
       <DependentUpon>DoDegree.cs</DependentUpon>
@@ -121,6 +127,9 @@
     </Compile>
     <EmbeddedResource Include="FormStudents.resx">
       <DependentUpon>FormStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateNameCetificate.resx">
+      <DependentUpon>UpdateNameCetificate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

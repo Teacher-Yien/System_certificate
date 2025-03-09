@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System_certificate.Models;
 
 namespace System_certificate
 {
@@ -17,21 +18,88 @@ namespace System_certificate
     {
         // Get connection string
         string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+        public int courseID; // Declare it without initializing
         public InformationStudents()
         {
             InitializeComponent();
+            table_select_create_certificate.SelectionChanged += Table_select_create_certificate_SelectionChanged;
+        }
+        private void Table_select_create_certificate_SelectionChanged(object sender, EventArgs e)
+        {
+            if (table_select_create_certificate.SelectedRows.Count > 0) // Ensure a row is selected
+            {
+                object cellValue = table_select_create_certificate.SelectedRows[0].Cells[0].Value;
+
+                if (cellValue != null && int.TryParse(cellValue.ToString(), out int id))
+                {
+                    courseID = id; // Store selected ID
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Course ID selected.");
+                }
+            }
         }
 
         private void btn_DoDegree_Click(object sender, EventArgs e)
         {
             if (table_select_create_certificate.SelectedRows.Count > 0)
             {
-                // Get the selected student's name
+                // Get the selected student's name (assuming column 1 is the student's name)  
                 string studentName = table_select_create_certificate.SelectedRows[0].Cells[1].Value.ToString();
 
-                // Open DoDegree Form and set the name
+                // Get the CourseID from the selected row (assuming it is in column 0)  
+                // **IMPORTANT**: Adjust column index (0) if the CourseID is in a different column  
+                int courseID = Convert.ToInt32(table_select_create_certificate.SelectedRows[0].Cells[0].Value);  // Assuming CourseID is in column 0  
+
+                // Define the certificate name and issue date  
+                string certificateName = table_select_create_certificate.SelectedRows[0].Cells[3].Value.ToString();
+                DateTime issueDate = DateTime.Now; // Use current date and time  
+
+                
+
+                // SQL INSERT statement (without StudentID)  
+                string insertQuery = "INSERT INTO Certificates (CourseID, CertificateName, IssueDate) " +
+                                     "VALUES (@CourseID, @CertificateName, @IssueDate)";
+
+                // Execute the SQL INSERT statement  
+                try
+                {
+                    using (SqlConnection connection = new SqlConnection(connectionString))
+                    {
+                        connection.Open();
+
+                        using (SqlCommand command = new SqlCommand(insertQuery, connection))
+                        {
+                            // Add parameters to prevent SQL injection  
+                            command.Parameters.AddWithValue("@CourseID", courseID);
+                            command.Parameters.AddWithValue("@CertificateName", certificateName);
+                            command.Parameters.AddWithValue("@IssueDate", issueDate);
+
+                            int rowsAffected = command.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Certificate data inserted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Certificate data insertion failed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error inserting certificate data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                // Open DoDegree Form and set the name  
+                // In InformationStudents.cs - btn_DoDegree_Click method
                 DoDegree doDegree = new DoDegree();
                 doDegree.SetNameToPrint(studentName);
+                doDegree.SetCertificateId(courseID); // Pass the ID
                 doDegree.Show();
             }
             else

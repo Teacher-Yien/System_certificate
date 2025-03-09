@@ -32,17 +32,17 @@
             this.btn_print_certificate = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_close_degree = new Guna.UI2.WinForms.Guna2Button();
+            this._label_Set_Name = new System.Windows.Forms.Label();
+            this.Certificate_template_default = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Certificate_template4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Certificate_template3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Certificate_template2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Certificate_template1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Certificate_template_default = new Guna.UI2.WinForms.Guna2PictureBox();
-            this._label_Set_Name = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.Certificate_template_default)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Certificate_template_default)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -116,6 +116,35 @@
             this.btn_close_degree.Text = "ចាកចេញ";
             this.btn_close_degree.Click += new System.EventHandler(this.btn_close_degree_Click);
             // 
+            // _label_Set_Name
+            // 
+            this._label_Set_Name.AutoSize = true;
+            this._label_Set_Name.BackColor = System.Drawing.Color.Transparent;
+            this._label_Set_Name.Cursor = System.Windows.Forms.Cursors.Hand;
+            this._label_Set_Name.Font = new System.Drawing.Font("Hanuman", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._label_Set_Name.ForeColor = System.Drawing.Color.Navy;
+            this._label_Set_Name.Location = new System.Drawing.Point(511, 388);
+            this._label_Set_Name.Name = "_label_Set_Name";
+            this._label_Set_Name.Size = new System.Drawing.Size(194, 80);
+            this._label_Set_Name.TabIndex = 20;
+            this._label_Set_Name.Text = " យេ ថាវរ៉ា";
+            this._label_Set_Name.UseCompatibleTextRendering = true;
+           
+            // 
+            // Certificate_template_default
+            // 
+            this.Certificate_template_default.BackColor = System.Drawing.Color.Transparent;
+            this.Certificate_template_default.BorderRadius = 5;
+            this.Certificate_template_default.Image = global::System_certificate.Properties.Resources.Certificate1_Replace;
+            this.Certificate_template_default.ImageRotate = 0F;
+            this.Certificate_template_default.Location = new System.Drawing.Point(45, 222);
+            this.Certificate_template_default.Name = "Certificate_template_default";
+            this.Certificate_template_default.Size = new System.Drawing.Size(988, 535);
+            this.Certificate_template_default.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Certificate_template_default.TabIndex = 19;
+            this.Certificate_template_default.TabStop = false;
+            this.Certificate_template_default.UseTransparentBackground = true;
+            // 
             // Certificate_template4
             // 
             this.Certificate_template4.BorderRadius = 5;
@@ -172,33 +201,6 @@
             this.Certificate_template1.TabStop = false;
             this.Certificate_template1.Click += new System.EventHandler(this.Certificate_template1_Click);
             // 
-            // Certificate_template_default
-            // 
-            this.Certificate_template_default.BackColor = System.Drawing.Color.Transparent;
-            this.Certificate_template_default.BorderRadius = 5;
-            this.Certificate_template_default.Image = global::System_certificate.Properties.Resources.Certificate1_Replace;
-            this.Certificate_template_default.ImageRotate = 0F;
-            this.Certificate_template_default.Location = new System.Drawing.Point(45, 222);
-            this.Certificate_template_default.Name = "Certificate_template_default";
-            this.Certificate_template_default.Size = new System.Drawing.Size(988, 535);
-            this.Certificate_template_default.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Certificate_template_default.TabIndex = 19;
-            this.Certificate_template_default.TabStop = false;
-            this.Certificate_template_default.UseTransparentBackground = true;
-            // 
-            // _label_Set_Name
-            // 
-            this._label_Set_Name.AutoSize = true;
-            this._label_Set_Name.BackColor = System.Drawing.Color.Transparent;
-            this._label_Set_Name.Font = new System.Drawing.Font("Hanuman", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this._label_Set_Name.ForeColor = System.Drawing.Color.Navy;
-            this._label_Set_Name.Location = new System.Drawing.Point(511, 388);
-            this._label_Set_Name.Name = "_label_Set_Name";
-            this._label_Set_Name.Size = new System.Drawing.Size(194, 80);
-            this._label_Set_Name.TabIndex = 20;
-            this._label_Set_Name.Text = " យេ ថាវរ៉ា";
-            this._label_Set_Name.UseCompatibleTextRendering = true;
-            // 
             // DoDegree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -220,11 +222,11 @@
             this.Name = "DoDegree";
             this.Padding = new System.Windows.Forms.Padding(15);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            ((System.ComponentModel.ISupportInitialize)(this.Certificate_template_default)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Certificate_template1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Certificate_template_default)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
